@@ -1,0 +1,22 @@
+{
+    "name": "iqbalhakim/twitterOauth1",
+    "description": "Twitter OAuth for Laravel 5",
+    "keywords": ["twitter", "oauth", "laravel"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Iqbal Hakim",
+            "email": "iqbalnurhakim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "abraham/twitteroauth": "0.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IqbalHakim\\TwitterOauth1": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
